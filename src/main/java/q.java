@@ -1,11 +1,19 @@
 public class q {
     public static void main(String []args) {
-        char[] x = new char[5];
-        x[0] = 1;
-        x[1] = 2;
-        x[2] = 3;
-        x[3] = 4;
-        x[4] = '5';
-        System.out.println(x[4]);
+        int a=3;
+        int b=1;
+        A a1=new A(0,0);
+        A a2=new A(1,2);
+
+
+        System.out.println(a^b);
+    }
+    static class A{
+        public int a=1;
+        public int b=1;
+        A(int a,int b){
+            this.a=a;
+            this.b=b;
+        }
     }
 }
