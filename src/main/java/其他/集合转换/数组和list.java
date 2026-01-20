@@ -1,5 +1,6 @@
 package 其他.集合转换;
 
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -20,7 +21,7 @@ public class 数组和list {
 
         //1、法1：stream流
         //List<Integer> list1=Arrays.stream(p).boxed().collect(Collectors.toList())
-        Collection<Integer> c=Arrays.stream(p).boxed().collect(Collectors.toList());
+        Collection<Integer> c= Arrays.stream(p).boxed().collect(Collectors.toList());
         List<Integer> list1=new ArrayList<>(c);
 
         //2、使用asList，基本数据类型需要先包装。
